@@ -29,15 +29,13 @@ import org.spongepowered.api.block.BlockType;
 /**
  * Represents a {@link Statistic} on a particular {@link BlockType}.
  */
-public interface BlockStatistic extends ItemStatistic {
+public interface BlockStatistic extends Statistic {
 
     /**
      * Returns the statistic's {@link BlockType}.
      *
      * @return BlockType
      */
-    default BlockType getBlockType() {
-        return getItemType().getBlock().get();
-    }
+    BlockType getBlockType();
 
 }

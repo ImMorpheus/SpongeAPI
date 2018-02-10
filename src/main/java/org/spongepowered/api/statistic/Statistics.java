@@ -45,6 +45,8 @@ public final class Statistics {
 
     public static final Statistic BOAT_ONE_CM = DummyObjectProvider.createFor(Statistic.class, "BOAT_ONE_CM");
 
+    public static final Statistic BREAK_ITEM = DummyObjectProvider.createFor(Statistic.class, "BREAK_ITEM");
+
     public static final Statistic BREWINGSTAND_INTERACTION = DummyObjectProvider.createFor(Statistic.class, "BREWINGSTAND_INTERACTION");
 
     public static final Statistic CAKE_SLICES_EATEN = DummyObjectProvider.createFor(Statistic.class, "CAKE_SLICES_EATEN");
@@ -56,6 +58,8 @@ public final class Statistics {
     public static final Statistic CHEST_OPENED = DummyObjectProvider.createFor(Statistic.class, "CHEST_OPENED");
 
     public static final Statistic CLIMB_ONE_CM = DummyObjectProvider.createFor(Statistic.class, "CLIMB_ONE_CM");
+
+    public static final Statistic CRAFTED = DummyObjectProvider.createFor(Statistic.class, "CRAFTED");
 
     public static final Statistic CRAFTING_TABLE_INTERACTION = DummyObjectProvider.createFor(Statistic.class, "CRAFTING_TABLE_INTERACTION");
 
@@ -73,15 +77,21 @@ public final class Statistics {
 
     public static final Statistic DROP = DummyObjectProvider.createFor(Statistic.class, "DROP");
 
+    public static final Statistic DROPPED = DummyObjectProvider.createFor(Statistic.class, "DROPPED");
+
     public static final Statistic DROPPER_INSPECTED = DummyObjectProvider.createFor(Statistic.class, "DROPPER_INSPECTED");
 
     public static final Statistic ENDERCHEST_OPENED = DummyObjectProvider.createFor(Statistic.class, "ENDERCHEST_OPENED");
+
+    public static final Statistic ENTITY_KILLED_BY = DummyObjectProvider.createFor(Statistic.class, "ENTITY_KILLED_BY");
 
     public static final Statistic FALL_ONE_CM = DummyObjectProvider.createFor(Statistic.class, "FALL_ONE_CM");
 
     public static final Statistic FISH_CAUGHT = DummyObjectProvider.createFor(Statistic.class, "FISH_CAUGHT");
 
     public static final Statistic FLOWER_POTTED = DummyObjectProvider.createFor(Statistic.class, "FLOWER_POTTED");
+
+    public static final Statistic FLY_ONE_CM = DummyObjectProvider.createFor(Statistic.class, "FLY_ONE_CM");
 
     public static final Statistic FURNACE_INTERACTION = DummyObjectProvider.createFor(Statistic.class, "FURNACE_INTERACTION");
 
@@ -93,9 +103,13 @@ public final class Statistics {
 
     public static final Statistic JUMP = DummyObjectProvider.createFor(Statistic.class, "JUMP");
 
+    public static final Statistic KILL_ENTITY = DummyObjectProvider.createFor(Statistic.class, "KILL_ENTITY");
+
     public static final Statistic LEAVE_GAME = DummyObjectProvider.createFor(Statistic.class, "LEAVE_GAME");
 
     public static final Statistic MINECART_ONE_CM = DummyObjectProvider.createFor(Statistic.class, "MINECART_ONE_CM");
+
+    public static final Statistic MINE_BLOCK = DummyObjectProvider.createFor(Statistic.class, "MINE_BLOCK");
 
     public static final Statistic MOB_KILLS = DummyObjectProvider.createFor(Statistic.class, "MOB_KILLS");
 
@@ -105,9 +119,13 @@ public final class Statistics {
 
     public static final Statistic OPEN_SHULKER_BOX = DummyObjectProvider.createFor(Statistic.class, "OPEN_SHULKER_BOX");
 
+    public static final Statistic PICKED_UP = DummyObjectProvider.createFor(Statistic.class, "PICKED_UP");
+
     public static final Statistic PIG_ONE_CM = DummyObjectProvider.createFor(Statistic.class, "PIG_ONE_CM");
 
     public static final Statistic PLAYER_KILLS = DummyObjectProvider.createFor(Statistic.class, "PLAYER_KILLS");
+
+    public static final Statistic PLAY_ONE_MINUTE = DummyObjectProvider.createFor(Statistic.class, "PLAY_ONE_MINUTE");
 
     public static final Statistic RECORD_PLAYED = DummyObjectProvider.createFor(Statistic.class, "RECORD_PLAYED");
 
@@ -121,13 +139,13 @@ public final class Statistics {
 
     public static final Statistic TALKED_TO_VILLAGER = DummyObjectProvider.createFor(Statistic.class, "TALKED_TO_VILLAGER");
 
-    public static final Statistic TIME_PLAYED = DummyObjectProvider.createFor(Statistic.class, "TIME_PLAYED");
-
     public static final Statistic TIME_SINCE_DEATH = DummyObjectProvider.createFor(Statistic.class, "TIME_SINCE_DEATH");
 
     public static final Statistic TRADED_WITH_VILLAGER = DummyObjectProvider.createFor(Statistic.class, "TRADED_WITH_VILLAGER");
 
     public static final Statistic TRAPPED_CHEST_TRIGGERED = DummyObjectProvider.createFor(Statistic.class, "TRAPPED_CHEST_TRIGGERED");
+
+    public static final Statistic USE = DummyObjectProvider.createFor(Statistic.class, "USE");
 
     public static final Statistic WALK_ONE_CM = DummyObjectProvider.createFor(Statistic.class, "WALK_ONE_CM");
 

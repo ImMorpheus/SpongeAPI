@@ -220,7 +220,7 @@ public interface GameRegistry {
      * @param entityType The entity type for the statistic to return
      * @return The entity statistic or Optional.empty() if not found
      */
-    Optional<EntityStatistic> getEntityStatistic(StatisticType statType, EntityType entityType);
+    Optional<EntityStatistic> getEntityStatistic(Statistic stat, EntityType entityType);
 
     /**
      * Gets the {@link Statistic} for the given {@link StatisticType} and
@@ -232,7 +232,7 @@ public interface GameRegistry {
      * @param itemType The item type for the statistic to return
      * @return The item statistic or Optional.empty() if not found
      */
-    Optional<ItemStatistic> getItemStatistic(StatisticType statType, ItemType itemType);
+    Optional<ItemStatistic> getItemStatistic(Statistic stat, ItemType itemType);
 
     /**
      * Gets the {@link Statistic} for the given {@link StatisticType} and
@@ -244,7 +244,7 @@ public interface GameRegistry {
      * @param blockType The block type for the statistic to return
      * @return The block statistic or Optional.empty() if not found
      */
-    Optional<BlockStatistic> getBlockStatistic(StatisticType statType, BlockType blockType);
+    Optional<BlockStatistic> getBlockStatistic(Statistic stat, BlockType blockType);
 
     /**
      * Gets the {@link Rotation} with the provided degrees.

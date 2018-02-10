@@ -30,23 +30,13 @@ public final class StatisticTypes {
 
     // SORTFIELDS:ON
 
-    public static final StatisticType BASIC = DummyObjectProvider.createFor(StatisticType.class, "BASIC");
+    public static final StatisticType BLOCKS = DummyObjectProvider.createFor(StatisticType.class, "BLOCKS");
 
-    public static final StatisticType BLOCKS_BROKEN = DummyObjectProvider.createFor(StatisticType.class, "BLOCKS_BROKEN");
+    public static final StatisticType GENERAL = DummyObjectProvider.createFor(StatisticType.class, "GENERAL");
 
-    public static final StatisticType ENTITIES_KILLED = DummyObjectProvider.createFor(StatisticType.class, "ENTITIES_KILLED");
+    public static final StatisticType ITEMS = DummyObjectProvider.createFor(StatisticType.class, "ITEMS");
 
-    public static final StatisticType ITEMS_BROKEN = DummyObjectProvider.createFor(StatisticType.class, "ITEMS_BROKEN");
-
-    public static final StatisticType ITEMS_CRAFTED = DummyObjectProvider.createFor(StatisticType.class, "ITEMS_CRAFTED");
-
-    public static final StatisticType ITEMS_DROPPED = DummyObjectProvider.createFor(StatisticType.class, "ITEMS_DROPPED");
-
-    public static final StatisticType ITEMS_PICKED_UP = DummyObjectProvider.createFor(StatisticType.class, "ITEMS_PICKED_UP");
-
-    public static final StatisticType ITEMS_USED = DummyObjectProvider.createFor(StatisticType.class, "ITEMS_USED");
-
-    public static final StatisticType KILLED_BY_ENTITY = DummyObjectProvider.createFor(StatisticType.class, "KILLED_BY_ENTITY");
+    public static final StatisticType MOBS = DummyObjectProvider.createFor(StatisticType.class, "MOBS");
 
     // SORTFIELDS:OFF
 

@@ -58,8 +58,6 @@ public interface Statistic extends CatalogType, Translatable {
      *
      * @return Statistic type
      */
-    default StatisticType getType() {
-        return StatisticTypes.BASIC;
-    }
+    StatisticType getType();
 
 }
